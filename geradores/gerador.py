@@ -14,3 +14,7 @@ def pesquisar_produtos(api_url, max_pages=100):
         if 'next_page' not in dados:
             break
         pagina_atual += 1
+
+for produto in pesquisar_produtos("https://api.exemplo.com/products"):
+
+    print(produto['name'])
