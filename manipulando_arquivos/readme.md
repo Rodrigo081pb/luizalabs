@@ -39,3 +39,9 @@ Python fornece várias maneiras de ler um arquivo. Podemos usar 'read()', 'readl
 # Métodos readline e readlines
 
 O método 'readline()' lê uma linha por vez, enquanto 'readlines()' retorna uma lista onde cada elemento é uma linha do arquivo.
+
+---
+
+##  Introdução:
+
+Podemos usar 'write()' ou 'writelines()' para escrever em um arquivo. Lembre-se, no entanto, de abrir o arquivo no modo correto

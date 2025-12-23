@@ -13,4 +13,4 @@ with open(
     encoding="utf-8"
 ) as arquivo:
     print(arquivo.readlines())
-    
+
