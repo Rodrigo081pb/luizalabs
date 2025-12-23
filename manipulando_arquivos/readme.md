@@ -42,6 +42,7 @@ O método 'readline()' lê uma linha por vez, enquanto 'readlines()' retorna uma
 
 ---
 
-##  Introdução:
+##  Introdução a escrita em códigos:
 
 Podemos usar 'write()' ou 'writelines()' para escrever em um arquivo. Lembre-se, no entanto, de abrir o arquivo no modo correto
+
