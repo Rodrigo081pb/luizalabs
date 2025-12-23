@@ -2,7 +2,7 @@ import os
 import shutil
 
 # criar um diretório
-os.mkdir('exemplo')
+# os.mkdir('exemplo')
 
 # criar um arquivo dentro do diretório
 with open('exemplo/exemplo.txt', 'w', encoding='utf-8') as f:
