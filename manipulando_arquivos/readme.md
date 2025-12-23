@@ -46,3 +46,8 @@ O método 'readline()' lê uma linha por vez, enquanto 'readlines()' retorna uma
 
 Podemos usar 'write()' ou 'writelines()' para escrever em um arquivo. Lembre-se, no entanto, de abrir o arquivo no modo correto
 
+---
+
+# Arquivos e diretórios - Introdução
+
+Python também oferece funções para gerenciar arquivos e diretórios, podemos criar, renomear e excluir arquivos e diretórios usando os módulos 'os' e 'shutil'
