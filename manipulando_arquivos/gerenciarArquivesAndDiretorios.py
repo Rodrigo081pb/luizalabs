@@ -29,3 +29,5 @@ ROOT_PATH = Path(__file__).parent
 
 arquivo_path = open(ROOT_PATH / "novo.txt", "w")
 arquivo_path.close()
+
+os.rename(ROOT_PATH / 'novo.txt', ROOT_PATH / 'renomeado.txt')
