@@ -5,6 +5,6 @@ import shutil
 os.mkdir('exemplo')
 
 # Renomear um diretório
-
 os.rename('exemplo.txt', 'exemplo_renomeado.txt')
+
 
