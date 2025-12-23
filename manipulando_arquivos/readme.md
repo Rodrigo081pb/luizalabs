@@ -35,3 +35,7 @@ Existem diferentes modos para abrir um arquivo, como somente leitura ('r'), grav
 # Introdução a leitura de arquivos
 
 Python fornece várias maneiras de ler um arquivo. Podemos usar 'read()', 'readline()', ou 'readlines()' dependendo de nossas necessidades.
+
+# Métodos readline e readlines
+
+O método 'readline()' lê uma linha por vez, enquanto 'readlines()' retorna uma lista onde cada elemento é uma linha do arquivo.
