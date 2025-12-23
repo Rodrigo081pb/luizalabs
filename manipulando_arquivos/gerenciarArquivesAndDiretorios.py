@@ -2,16 +2,17 @@ import os
 import shutil
 from pathlib import Path
 
-# criar um diretório
-# os.mkdir('exemplo')
+ROOT_PATH = Path(__file__).parent
 
-# criar um arquivo dentro do diretório
+# Criar diretório exemplo
+(Path('exemplo')).mkdir(exist_ok=True)
+
+# Criar arquivo
 with open('exemplo/arquivo.txt', 'w', encoding='utf-8') as f:
     f.write('Conteúdo de exemplo')
 
-# Renomear um diretório
-# Renomear o arquivo
-os.rename(
+# Renomear arquivo
+os.replace(
     'exemplo/arquivo.txt',
     'exemplo/arquivo_renomeado.txt'
 )
@@ -19,20 +20,19 @@ os.rename(
 # Remover arquivo
 os.remove('exemplo/arquivo_renomeado.txt')
 
-######################
+##########################
 
-### pegando o caminho absoluto do diretório atual
-ROOT_PATH = Path(__file__).parent
+# Criar novo arquivo
+novo = ROOT_PATH / 'novo.txt'
+novo.write_text('Arquivo novo', encoding='utf-8')
 
-# criando um novo diretório usando o Pathlib
-# os.mkdir(ROOT_PATH / 'teste_novo_diretório_dir')
+# Renomear sobrescrevendo se existir
+renomeado = ROOT_PATH / 'renomeado.txt'
+os.replace(novo, renomeado)
 
-# criando um novo arquivo usando o Pathlib
-arquivo_path = open(ROOT_PATH / "novo.txt", "w")
+# Criar diretório destino
+dest_dir = ROOT_PATH / 'teste_novo_diretório_dir'
+dest_dir.mkdir(exist_ok=True)
 
-# fechando arquivos
-arquivo_path.close()
-
-os.rename(ROOT_PATH / 'novo.txt', ROOT_PATH / 'renomeado.txt')
-
-# Movendo arquivos
+# Mover arquivo
+shutil.move(renomeado, dest_dir / 'renomeado.txt')
