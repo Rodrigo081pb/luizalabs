@@ -9,3 +9,11 @@ Aprender como manipular, ler e reescrever arquivos utilizando python
 Os arquivos são essenciais para qualquer tipo de programação pois fornecem um meio de armazenar e recuperar dados através da manipulação de arquivos, podemos persistir os dados além da vida útil de um programa.
 
 Programas persistentes é aqueles programas que persistem os dados mesmos quando os programas estão fechados ou a máquina desligado
+
+# Conceito de arquivo em informática.
+
+Um arquivo é um container no computador onde as informações armazenadas em formato digital
+
+## Existem dois tipos de arquivos que podemos manipular em python:
+
+Arquivos de texto e arquivos binários
