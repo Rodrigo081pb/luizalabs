@@ -5,14 +5,16 @@ import shutil
 # os.mkdir('exemplo')
 
 # criar um arquivo dentro do diretório
-with open('exemplo/diretorio_destino.txt', 'w', encoding='utf-8') as f:
+with open('exemplo/arquivo.txt', 'w', encoding='utf-8') as f:
     f.write('Conteúdo de exemplo')
 
 # Renomear um diretório
-os.rename('exemplo.txt', 'exemplo_renomeado.txt')
+# Renomear o arquivo
+os.rename(
+    'exemplo/arquivo.txt',
+    'exemplo/arquivo_renomeado.txt'
+)
 
 # Remover arquivo
-os.remove('exemplo/exemplo.txt')
+os.remove('exemplo/arquivo_renomeado.txt')
 
-# mover um diretório
-shutil.move('diretorio_origem.txt', 'diretorio_destino.txt')
