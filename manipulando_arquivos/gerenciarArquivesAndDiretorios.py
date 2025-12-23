@@ -1,5 +1,6 @@
 import os
 import shutil
+from pathlib import Path
 
 # criar um diretório
 # os.mkdir('exemplo')
@@ -18,3 +19,7 @@ os.rename(
 # Remover arquivo
 os.remove('exemplo/arquivo_renomeado.txt')
 
+######################
+
+### pegando o caminho absoluto do diretório atual
+ROOT_PATH = Path(__file__).parent
