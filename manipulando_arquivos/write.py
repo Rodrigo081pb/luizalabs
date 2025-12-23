@@ -3,4 +3,3 @@ arquivo = open('C:/Users/r.pinheiro.braga/Desktop/luizalabs/manipulando_arquivos
 arquivo.write("Olá, mundo!")
 
 arquivo.close()
-
