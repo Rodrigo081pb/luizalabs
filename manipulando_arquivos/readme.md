@@ -29,3 +29,9 @@ Quando terminamos de trabalhar com o arquivo, utilizamos a função 'close()' pa
 ### Modos de abertura de arquivo
 
 Existem diferentes modos para abrir um arquivo, como somente leitura ('r'), gravação ('w') e anexar ('a'). O modo de abertura deve ser escolhido de acordo com a operação que iremos realizar.
+
+---
+
+# Introdução a leitura de arquivos
+
+Python fornece várias maneiras de ler um arquivo. Podemos usar 'read()', 'readline()', ou 'readlines()' dependendo de nossas necessidades.
