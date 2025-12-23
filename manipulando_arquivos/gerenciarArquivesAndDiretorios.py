@@ -10,3 +10,5 @@ os.rename('exemplo.txt', 'exemplo_renomeado.txt')
 # Remover arquivo
 os.remove('exemplo_renomeado.txt')
 
+# mover um diretório
+shutil.move('diretorio_origem.txt', 'diretorio_destino.txt')
