@@ -17,3 +17,11 @@ Um arquivo é um container no computador onde as informações armazenadas em fo
 ## Existem dois tipos de arquivos que podemos manipular em python:
 
 Arquivos de texto e arquivos binários
+
+----
+
+Por que precisamos manipular arquivos ?
+
+Para manipular arquivos em Python, primeiro precisamos abri-los. Usamos a função 'open()' para isso.
+
+Quando terminamos de trabalhar com o arquivo, utilizamos a função 'close()' para liberar recursos.
