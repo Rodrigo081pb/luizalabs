@@ -23,3 +23,6 @@ os.remove('exemplo/arquivo_renomeado.txt')
 
 ### pegando o caminho absoluto do diretório atual
 ROOT_PATH = Path(__file__).parent
+
+# criando um novo diretório usando o Pathlib
+os.mkdir(ROOT_PATH / 'teste_novo_diretório_dir')
