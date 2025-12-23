@@ -6,4 +6,4 @@ Aprender como manipular, ler e reescrever arquivos utilizando python
 
 # Porque precisamso manipular arquivos: 
 
-Os arquivos são essenciais para qualquer tipo de programação pois fornecem um meio de armazenar e recuperar dados através da manipulação de arquivos, podemos persistir os dados além da vida útil
+Os arquivos são essenciais para qualquer tipo de programação pois fornecem um meio de armazenar e recuperar dados através da manipulação de arquivos, podemos persistir os dados além da vida útil de um programa.
