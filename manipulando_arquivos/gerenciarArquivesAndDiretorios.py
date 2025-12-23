@@ -5,8 +5,8 @@ import shutil
 # os.mkdir('exemplo')
 
 # criar um arquivo dentro do diretório
-# with open('exemplo/exemplo.txt', 'w', encoding='utf-8') as f:
-#     f.write('Conteúdo de exemplo')
+with open('exemplo/diretorio_destino.txt', 'w', encoding='utf-8') as f:
+    f.write('Conteúdo de exemplo')
 
 # Renomear um diretório
 os.rename('exemplo.txt', 'exemplo_renomeado.txt')
