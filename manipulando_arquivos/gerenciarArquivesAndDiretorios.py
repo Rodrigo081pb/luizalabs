@@ -27,7 +27,12 @@ ROOT_PATH = Path(__file__).parent
 # criando um novo diretório usando o Pathlib
 # os.mkdir(ROOT_PATH / 'teste_novo_diretório_dir')
 
+# criando um novo arquivo usando o Pathlib
 arquivo_path = open(ROOT_PATH / "novo.txt", "w")
+
+# fechando arquivos
 arquivo_path.close()
 
 os.rename(ROOT_PATH / 'novo.txt', ROOT_PATH / 'renomeado.txt')
+
+# Movendo arquivos
